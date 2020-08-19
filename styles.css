@@ -1,0 +1,103 @@
+.car {
+  width: 1000px;
+  height: 230px;
+  border: 1px solid gray;
+  position: relative;
+  z-index: 0;
+}
+
+.body {
+  position: absolute;
+  left: 280px;
+  top: 0;
+  bottom: 0;
+  width: 720px;
+  background-color: red;
+}
+
+.inner-body {
+  position: relative;
+  /* background-color: yellow; */
+  height: 100%;
+}
+
+.windscreen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0;
+  border-bottom: 100px solid red;
+  border-left: 200px solid transparent;
+  background-color: white;
+}
+
+.windscreen-back {
+  position: absolute;
+  top: 0;
+  right: 70px;
+  height: 0;
+  border-bottom: 100px solid red;
+  border-right: 170px solid transparent;
+  background-color: white;
+}
+
+.trunk {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  border-bottom: 130px solid red;
+  width: 70px;
+  background-color: white;
+}
+
+.trunk-top {
+  position: absolute;
+  right: 0;
+  bottom: 110px;
+  top: 0;
+  width: 70px;
+  border-bottom: 30px solid red;
+  border-right: 70px solid transparent;
+  /* background-color: white; */
+}
+
+.bonnet {
+  background-color: red;
+  height: 100px;
+  width: 280px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.bonnet-top {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  height: 0;
+  /* width: 270px; */
+  border-bottom: 30px solid red;
+  border-left: 280px solid transparent;
+}
+
+.tire {
+  height: 60px;
+  width: 60px;
+  border: 40px solid black;
+  border-radius: 50%;
+  z-index: 10;
+  background-color: white;
+}
+
+.front-tire {
+  position: absolute;
+  left: 100px;
+  bottom: -70px;
+}
+
+.back-tire {
+  position: absolute;
+  right: 150px;
+  bottom: -70px;
+}
